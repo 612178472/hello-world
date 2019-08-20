@@ -1,2 +1,5 @@
 # hello-world
-Just another repository
+
+Hi!
+
+I am a 10th grader at Normal Community High School.
