@@ -8,21 +8,34 @@ View the most recent ReadMe with image-filled installation instructions: https:/
 
 The Homestead High School Library App is designed to provide a mobile interface that works alongside a stable backend database structure to provide users with information about available books, their holds, and their checkouts. Additionally, it implements a scanner that connects to web APIs in order to allow users to discover and hold books with their phone cameras. The app was developed in conjunction with Homestead High School's library to ensure our app would be useful in a real world situation.
 
-This application was programmed entirely in Apple's Swift language. The backend was coded with MySQL.
+The Homestead High School Library App is designed to provide a mobile interface that works alongside a stable backend database structure to provide users with information about available books, their holds, and their checkouts. Additionally, it implements a scanner that connects to web APIs in order to allow users to discover and hold books with their phone cameras. The app was developed in conjunction with Homestead High School's library to ensure our app would be useful in a real world situation.
 
-Key Features
-Robust backend relational database to store information
-Book barcode scanner using RESTful APIs to generate book information
-Well commented database access code
-Checkout with your phone for ease of access
-Intelligent keyword search algorithm to look for books
-Hold system that lets you reserve a book to pick up later
-Customized map with genre pins to identify book locations
-Bug reporting to enable continuous development
-Smart resource management to reduce database calls and memory leaks
-Facebook integration to allow for a social aspect to our application
-Getting Started
+This application was programmed entirely in Apple's Swift language. The backend was coded with a mix of MySQL and PHP.
+
+## Key Features
+
+* Robust backend relational database to store information
+* Book barcode scanner using RESTful APIs to generate book information
+* Well commented database access code
+* Checkout with your phone for ease of access
+* Intelligent keyword search algorithm to look for books
+* Hold system that lets you reserve a book to pick up later
+* Customized map with genre pins to identify book locations
+* Bug reporting to enable continuous development
+* Smart resource management to reduce database calls and memory leaks
+* Facebook integration to allow for a social aspect to our application
+
+## Getting Started
+
 The following are the best ways to test HHS Library given your access to certain devices.
+
+### Mac OS Computer
+Download XCode from the Mac App Store and create a free developer account on [Apple's Developer Portal](developer.apple.com)
+
+
+
+
+
 
 Mac OS Computer
 Download XCode from the Mac App Store and create a free developer account on Apple's Developer Portal
@@ -81,39 +94,4 @@ Change the provisioning profile to your own developer account. proj4
 It may say “Failed to create provisioning profile.” proj5
 Edit the bundle identifier by adding a number to the end and click “Try Again.” proj6
 You can now view all the classes and storyboards that go into the application.
-[Make sure xcode is opening a simulator of a valid and modern iPhone.] proj8
-To directly download the app onto your phone, plug your own phone into the computer and select your phone to download the app on your phone. You may have to approve the application on your iPhone.
-After the application opens, log in with school id “1234567” and password “test.”
-Feel free to browse the app! The scanner portion of the app only works on an actual phone where a camera can be accessed.
-You can log in with facebook within the Onboarding Pages or the Profile Page. Please use the following login information to see how our app uses facebook friend systems to enhance user experience.
-Email: dmcallister452@student.fuhsd.org
-Password: fblaJudgeLogin img_5589 Onboarding Page On First Launch
-Below is an example barcode to be used with the scanner.
-You can also scan any book not found in the library to pull up information about it from online api's.
-We encourage you to try this out with books around your house!
-barcode
-
-If you ever run into any issues, submit a bug report at the bottom of the "My Books" page.
-Logging in
-Application login credentials
-
-Student ID: "1234567"
-Password: "test"
-Facebook login credentials
-
-Email: dmcallister452@student.fuhsd.org
-Password: fblaJudgeLogin
-Database Structure
-Database is a relational MySQL database running the InnoDB engine. It uses various foreign key checks to ensure the integrity of the data and eliminate potential errors in database calls. You can see our design schema here
-
-Deployment
-This application is supported by a server side script, so any user just has to connect with their account (made with the library when they join the school)
-
-Built With
-MySQL server hosted with bluehost.com
-PHP access code hosted with bluehost.com
-Swift code for UI and implementation
-CocoaPods for library dependency management
-Lottie by Airbnb for in-app animations
-Adobe Photoshop CC for app graphics
-XCode Integrated Development Environment
+[Make
